@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Contact Us</title>
+    <meta name="description" content="Get in touch with our travel experts and start your journey today.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Wanderlust.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Explore</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="index.html#services">Services</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="contact.html" class="nav-contact-btn">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="contact-hero dest-hero">
+        <div class="hero-content">
+            <h1>Let's Plan Your Next Adventure</h1>
+            <p>Get in touch with our travel experts and start your journey today.</p>
+        </div>
+    </header>
+
+    <!-- 2. Contact Information Section -->
+    <section class="contact-info-section">
+        <div class="info-grid">
+            <div class="info-card category-card">
+                <i class="fa-solid fa-phone"></i>
+                <h3>Phone Number</h3>
+                <p>+1 (800) 123-4567<br>+1 (800) 987-6543</p>
+            </div>
+            <div class="info-card category-card">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Email Address</h3>
+                <p>info@wanderlust.com<br>support@wanderlust.com</p>
+            </div>
+            <div class="info-card category-card">
+                <i class="fa-solid fa-location-dot"></i>
+                <h3>Office Address</h3>
+                <p>123 Luxury Ave, Suite 400<br>New York, NY 10001</p>
+            </div>
+            <div class="info-card category-card">
+                <i class="fa-regular fa-clock"></i>
+                <h3>Business Hours</h3>
+                <p>Mon - Fri: 9:00 AM - 8:00 PM<br>Sat - Sun: 10:00 AM - 4:00 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Contact Form & Map Section -->
+    <section class="contact-form-section">
+        <div class="contact-container">
+            <!-- Form -->
+            <div class="form-wrapper">
+                <h2>Send Us A Message</h2>
+                <form class="booking-form" action="#" method="POST">
+                    <div class="form-group">
+                        <input type="text" id="fullname" name="fullname" required placeholder=" ">
+                        <label for="fullname">Full Name</label>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" ">
+                            <label for="email">Email Address</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" required placeholder=" ">
+                            <label for="phone">Phone Number</label>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="destination" name="destination" required placeholder=" ">
+                            <label for="destination">Destination Interested In</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="date" id="date" name="date" required placeholder=" ">
+                            <label for="date" class="active-label">Travel Date</label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="travelers" name="travelers" required placeholder=" " min="1">
+                        <label for="travelers">Number of Travelers</label>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="cta-btn submit-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <!-- Map -->
+            <div class="map-wrapper">
+                <h2>Our Location</h2>
+                <div class="map-box">
+                    <!-- Placeholder map for premium aesthetic -->
+                    <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Office Location Map">
+                    <div class="map-overlay-info">
+                        <h3>Wanderlust Headquarters</h3>
+                        <p><i class="fa-solid fa-location-dot"></i> 123 Luxury Ave, New York</p>
+                        <p><i class="fa-solid fa-building"></i> Near Central Park</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Why Contact Wanderlust -->
+    <section class="why-contact-section categories-section">
+        <h2>Why Travel With Us?</h2>
+        <div class="category-grid">
+            <div class="category-card"><i class="fa-solid fa-map-location-dot"></i><p>Personalized Planning</p></div>
+            <div class="category-card"><i class="fa-solid fa-user-tie"></i><p>Expert Consultants</p></div>
+            <div class="category-card"><i class="fa-solid fa-tags"></i><p>Best Price Guarantee</p></div>
+            <div class="category-card"><i class="fa-solid fa-headset"></i><p>24/7 Support</p></div>
+            <div class="category-card"><i class="fa-solid fa-shield-halved"></i><p>Secure Assistance</p></div>
+            <div class="category-card"><i class="fa-solid fa-cubes"></i><p>Custom Packages</p></div>
+        </div>
+    </section>
+
+    <!-- 5. FAQ Section -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <button class="faq-question">
+                    How do I book a package? <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>You can book a package directly through our website by browsing our Packages page, or you can contact our travel consultants via this page for a personalized booking experience.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I customize my itinerary? <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Absolutely! We specialize in tailored travel experiences. Just let us know your preferences in the contact form, and we will craft the perfect custom itinerary for you.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    What payment methods are accepted? <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We accept all major credit cards, PayPal, bank transfers, and Apple Pay for secure and convenient transactions.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Can I cancel or reschedule my trip? <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we offer flexible cancellation and rescheduling policies depending on the specific package and timeframe. Please refer to our booking terms or contact support for assistance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">
+                    Do you offer group discounts? <i class="fa-solid fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We offer special rates for large groups, corporate retreats, and destination weddings. Reach out to our team for a custom quote.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Customer Support & Social Media -->
+    <section class="support-social-section">
+        <div class="support-container">
+            <h2>Instant Support</h2>
+            <div class="support-options">
+                <a href="#" class="support-btn"><i class="fa-solid fa-comments"></i> Live Chat</a>
+                <a href="#" class="support-btn whatsapp"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                <a href="#" class="support-btn emergency"><i class="fa-solid fa-truck-medical"></i> Emergency</a>
+            </div>
+        </div>
+        <div class="social-container">
+            <h2>Follow Our Journey</h2>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Call To Action Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready To Explore The World?</h2>
+            <p>Our travel specialists are here to help you create unforgettable experiences.</p>
+            <button class="cta-btn book-btn">Start Your Journey</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
