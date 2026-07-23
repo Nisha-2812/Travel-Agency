@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Travel Packages</title>
+    <meta name="description" content="Handpicked travel experiences designed for every traveler.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Wanderlust.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html">Explore</a></li>
+            <li><a href="packages.html" class="active">Packages</a></li>
+            <li><a href="index.html#services">Services</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="contact.html" class="nav-contact-btn">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="packages-hero dest-hero">
+        <div class="hero-content">
+            <h1>Find Your Perfect Journey</h1>
+            <p>Handpicked travel experiences designed for every traveler.</p>
+            
+            <div class="search-bar">
+                <div class="search-input">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Destination">
+                </div>
+                <div class="search-input">
+                    <i class="fa-solid fa-wallet"></i>
+                    <input type="text" placeholder="Budget">
+                </div>
+                <div class="search-input">
+                    <i class="fa-regular fa-clock"></i>
+                    <input type="text" placeholder="Duration">
+                </div>
+                <div class="search-input">
+                    <i class="fa-solid fa-plane"></i>
+                    <input type="text" placeholder="Travel Type">
+                </div>
+                <button class="cta-btn search-btn">Find Package</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 2. Featured Packages Section -->
+    <section class="packages-section featured-destinations">
+        <h2>Featured Packages</h2>
+        <div class="featured-grid">
+            <!-- Bali Paradise -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali Paradise Escape">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                    </div>
+                    <h3>Bali Paradise Escape</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 5 Days / 4 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> Luxury Resort Stay</li>
+                        <li><i class="fa-solid fa-check"></i> Private Beach Access</li>
+                        <li><i class="fa-solid fa-check"></i> Spa Treatments</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $1,400</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Dubai Luxury -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dubai Luxury Tour">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                    </div>
+                    <h3>Dubai Luxury Tour</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 4 Days / 3 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> Burj Khalifa VIP Entry</li>
+                        <li><i class="fa-solid fa-check"></i> Desert Safari & Dinner</li>
+                        <li><i class="fa-solid fa-check"></i> 5-Star Hotel Stay</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $1,950</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Maldives Honeymoon -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maldives Honeymoon">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Maldives</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+                    </div>
+                    <h3>Maldives Honeymoon Special</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 7 Days / 6 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> Overwater Villa</li>
+                        <li><i class="fa-solid fa-check"></i> Romantic Candlelight Dinner</li>
+                        <li><i class="fa-solid fa-check"></i> Couples Snorkeling</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $4,200</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiss Alps -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Swiss Alps">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Swiss Alps</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                    </div>
+                    <h3>Swiss Alps Adventure</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 6 Days / 5 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> Ski Resort Pass</li>
+                        <li><i class="fa-solid fa-check"></i> Scenic Train Rides</li>
+                        <li><i class="fa-solid fa-check"></i> Mountain Lodge Stay</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $2,800</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- European Highlights Tour -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="European Highlights">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Europe</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+                    </div>
+                    <h3>European Highlights Tour</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 14 Days / 13 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> 5 Countries Covered</li>
+                        <li><i class="fa-solid fa-check"></i> Guided City Tours</li>
+                        <li><i class="fa-solid fa-check"></i> Inter-country Transport</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $3,900</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Thailand Family Vacation -->
+            <div class="featured-card package-card">
+                <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Thailand Family Vacation">
+                <div class="featured-info package-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Thailand</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                    </div>
+                    <h3>Thailand Family Vacation</h3>
+                    <p class="duration"><i class="fa-regular fa-clock"></i> 8 Days / 7 Nights</p>
+                    <ul class="package-highlights">
+                        <li><i class="fa-solid fa-check"></i> Elephant Sanctuary Visit</li>
+                        <li><i class="fa-solid fa-check"></i> Family-Friendly Resort</li>
+                        <li><i class="fa-solid fa-check"></i> Island Hopping Tour</li>
+                    </ul>
+                    <div class="package-action">
+                        <span class="price">From $2,100</span>
+                        <div class="btn-group">
+                            <button class="explore-btn">View Details</button>
+                            <button class="book-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Package Categories -->
+    <section class="categories-section">
+        <h2>Travel Styles</h2>
+        <div class="category-grid">
+            <div class="category-card"><i class="fa-solid fa-heart"></i><p>Honeymoon Packages</p></div>
+            <div class="category-card"><i class="fa-solid fa-people-group"></i><p>Family Trips</p></div>
+            <div class="category-card"><i class="fa-solid fa-person-hiking"></i><p>Adventure Tours</p></div>
+            <div class="category-card"><i class="fa-solid fa-champagne-glasses"></i><p>Luxury Escapes</p></div>
+            <div class="category-card"><i class="fa-solid fa-person-walking-luggage"></i><p>Solo Travel</p></div>
+            <div class="category-card"><i class="fa-solid fa-bus"></i><p>Group Tours</p></div>
+        </div>
+    </section>
+
+    <!-- 4. Special Offers Section -->
+    <section class="special-offers">
+        <h2>Special Offers</h2>
+        <div class="offers-grid">
+            <div class="offer-banner" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');">
+                <div class="offer-content">
+                    <span class="badge">Early Bird</span>
+                    <h3>Save 20% on Summer Tours</h3>
+                    <p>Book 3 months in advance and enjoy massive savings.</p>
+                    <button class="explore-btn offer-btn">Claim Offer</button>
+                </div>
+            </div>
+            <div class="offer-banner" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80');">
+                <div class="offer-content">
+                    <span class="badge flash">Flash Sale</span>
+                    <h3>Caribbean Getaways</h3>
+                    <p>Exclusive deals on all-inclusive Caribbean resorts. Ends soon!</p>
+                    <button class="explore-btn offer-btn">Claim Offer</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Package Comparison Section -->
+    <section class="comparison-section features-section">
+        <h2>What's Included In Every Package</h2>
+        <div class="features-grid comparison-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-hotel"></i></div>
+                <h3>Premium Hotels</h3>
+                <p>Carefully vetted 4 & 5-star accommodations.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-utensils"></i></div>
+                <h3>Gourmet Meals</h3>
+                <p>Breakfast daily and select premium dining experiences.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-car"></i></div>
+                <h3>Transport & Transfers</h3>
+                <p>Comfortable inter-city travel and airport pickups.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-ticket"></i></div>
+                <h3>Curated Activities</h3>
+                <p>Included entry tickets and unique excursions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Why Choose Our Packages -->
+    <section class="why-packages categories-section">
+        <h2>Why Travel With Wanderlust</h2>
+        <div class="category-grid">
+            <div class="category-card"><i class="fa-solid fa-tags"></i><p>Best Price Guarantee</p></div>
+            <div class="category-card"><i class="fa-solid fa-check-circle"></i><p>Verified Quality</p></div>
+            <div class="category-card"><i class="fa-solid fa-map"></i><p>Expert Planning</p></div>
+            <div class="category-card"><i class="fa-solid fa-headset"></i><p>24/7 Support</p></div>
+            <div class="category-card"><i class="fa-solid fa-lock"></i><p>Secure Booking</p></div>
+            <div class="category-card"><i class="fa-solid fa-wand-magic-sparkles"></i><p>Personalized Service</p></div>
+        </div>
+    </section>
+
+    <!-- 7. Customer Reviews -->
+    <section class="reviews-section">
+        <h2>Traveler Reviews</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 1">
+                    <div>
+                        <h4>Sarah Jenkins</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                <p>"The Bali package was absolutely magical. Wanderlust took care of every detail perfectly from flights to hotels!"</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 2">
+                    <div>
+                        <h4>Michael Chen</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                </div>
+                <p>"Our Swiss Alps adventure was incredible. The package included everything we needed and more. Highly recommended."</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 3">
+                    <div>
+                        <h4>Emma Thompson</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                <p>"The Dubai Luxury Tour exceeded all expectations. We felt like VIPs throughout the entire trip."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Call To Action Section -->
+    <section class="cta-section" style="background-image: linear-gradient(rgba(255, 107, 107, 0.9), rgba(15, 17, 21, 0.9)), url('https://images.unsplash.com/photo-1473625247510-8ceb1760943f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="cta-content">
+            <h2>Ready To Start Your Adventure?</h2>
+            <p>Book your dream vacation today and create unforgettable memories.</p>
+            <button class="cta-btn book-btn">Book Your Package</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

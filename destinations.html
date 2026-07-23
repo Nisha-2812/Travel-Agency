@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Destinations</title>
+    <meta name="description" content="Explore dream destinations with Wanderlust travel agency.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Wanderlust.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destinations.html" class="active">Explore</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="index.html#services">Services</a></li>
+        </ul>
+        <div class="nav-right">
+            <a href="contact.html" class="nav-contact-btn">Contact</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark/Light Mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 1. Hero Section -->
+    <header class="dest-hero">
+        <div class="hero-content">
+            <h1>Explore Dream Destinations</h1>
+            <p>Discover breathtaking locations and unforgettable experiences around the world.</p>
+            
+            <div class="search-bar">
+                <div class="search-input">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Where to?">
+                </div>
+                <div class="search-input">
+                    <i class="fa-regular fa-calendar"></i>
+                    <input type="text" placeholder="Dates">
+                </div>
+                <div class="search-input">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" placeholder="Travelers">
+                </div>
+                <button class="cta-btn search-btn">Search</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- 3. Popular Categories -->
+    <section class="categories-section">
+        <h2>Popular Categories</h2>
+        <div class="category-grid">
+            <div class="category-card"><i class="fa-solid fa-umbrella-beach"></i><p>Beach Escapes</p></div>
+            <div class="category-card"><i class="fa-solid fa-mountain"></i><p>Mountain Adventures</p></div>
+            <div class="category-card"><i class="fa-solid fa-masks-theater"></i><p>Cultural Tours</p></div>
+            <div class="category-card"><i class="fa-solid fa-gem"></i><p>Luxury Retreats</p></div>
+            <div class="category-card"><i class="fa-solid fa-hippo"></i><p>Wildlife Safaris</p></div>
+            <div class="category-card"><i class="fa-solid fa-city"></i><p>City Explorations</p></div>
+        </div>
+    </section>
+
+    <!-- 2. Featured Destinations Section -->
+    <section class="featured-destinations">
+        <h2>Featured Destinations</h2>
+        <div class="featured-grid">
+            <!-- Bali -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Bali, Indonesia">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Bali, Indonesia</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                    </div>
+                    <h3>Tropical Paradise</h3>
+                    <p>Experience the serene beaches and rich culture of Bali.</p>
+                    <div class="price-action">
+                        <span class="price">From $1,200</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Paris -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Paris, France">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Paris, France</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                    </div>
+                    <h3>City of Lights</h3>
+                    <p>Romance, art, and world-class cuisine await you.</p>
+                    <div class="price-action">
+                        <span class="price">From $1,500</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Santorini -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1613395877344-13d4a8e0d49e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Santorini, Greece">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Santorini, Greece</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.9</span>
+                    </div>
+                    <h3>Aegean Dreams</h3>
+                    <p>Iconic white-washed views and spectacular sunsets.</p>
+                    <div class="price-action">
+                        <span class="price">From $1,800</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Dubai -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dubai, UAE">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.7</span>
+                    </div>
+                    <h3>Modern Luxury</h3>
+                    <p>Futuristic architecture and endless desert dunes.</p>
+                    <div class="price-action">
+                        <span class="price">From $2,000</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Maldives -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1514282401047-d79a71a590e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Maldives">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Maldives</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 5.0</span>
+                    </div>
+                    <h3>Ocean Villas</h3>
+                    <p>Crystal clear waters and private overwater bungalows.</p>
+                    <div class="price-action">
+                        <span class="price">From $3,500</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Swiss Alps -->
+            <div class="featured-card">
+                <img src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Swiss Alps">
+                <div class="featured-info">
+                    <div class="loc-rating">
+                        <span class="location"><i class="fa-solid fa-location-dot"></i> Swiss Alps</span>
+                        <span class="rating"><i class="fa-solid fa-star"></i> 4.8</span>
+                    </div>
+                    <h3>Winter Wonderland</h3>
+                    <p>World-class skiing and breathtaking alpine scenery.</p>
+                    <div class="price-action">
+                        <span class="price">From $2,200</span>
+                        <button class="explore-btn">Explore More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Interactive Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <h2>Explore The World</h2>
+            <div class="map-graphic">
+                <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="World Map" class="world-map-img">
+                <div class="map-marker m-bali"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="map-marker m-paris"><i class="fa-solid fa-location-dot"></i></div>
+                <div class="map-marker m-dubai"><i class="fa-solid fa-location-dot"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Why Choose These Destinations -->
+    <section class="features-section">
+        <h2>Why Choose Our Destinations</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-camera"></i></div>
+                <h3>Best Attractions</h3>
+                <p>We handpick the most spectacular and breathtaking spots.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-compass"></i></div>
+                <h3>Local Experiences</h3>
+                <p>Immerse yourself in authentic culture and traditions.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-user-tie"></i></div>
+                <h3>Professional Guides</h3>
+                <p>Expert local guides to ensure an unforgettable journey.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                <h3>Safe Travel</h3>
+                <p>Your safety and peace of mind is our top priority.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Traveler Reviews -->
+    <section class="reviews-section">
+        <h2>Traveler Reviews</h2>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 1">
+                    <div>
+                        <h4>Sarah Jenkins</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                <p>"The Bali trip was absolutely magical. Wanderlust took care of every detail perfectly!"</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 2">
+                    <div>
+                        <h4>Michael Chen</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                </div>
+                <p>"Our Swiss Alps adventure was incredible. The guides were professional and the views were breathtaking."</p>
+            </div>
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80" alt="Traveler 3">
+                    <div>
+                        <h4>Emma Thompson</h4>
+                        <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                </div>
+                <p>"Santorini exceeded all expectations. The luxury retreat was exactly what we needed."</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Call To Action Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Ready For Your Next Adventure?</h2>
+            <p>Let us help you craft the perfect itinerary for your dream vacation.</p>
+            <button class="cta-btn">Book Your Journey</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Wanderlust Travel Agency. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
